@@ -1,0 +1,7 @@
+streamlit
+geemap
+earthengine-api
+rasterio
+numpy
+tifffile
+torch
