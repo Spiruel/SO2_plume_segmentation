@@ -147,7 +147,7 @@ with colb:
     Map.to_streamlit(width=100)
 
 if cola.button('Predict over ROI'):
-    tif_files = glob.glob('*.tif*)
+    tif_files = glob.glob('*.tif*')
     for tif in tif_files:
         os.remove(tif)
         
